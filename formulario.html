@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="blog.html">
+        <div>
+            <label for="nombre">Ingrese nombre</label>
+            <input type="text" id="nombre" required autocomplete="off"/>
+        </div>
+        <div>
+            <label for="apellido">Ingrese apellido</label>
+            <input type="text" id="apellido" disabled />
+        </div>
+        <div>
+            <label for="email">Ingrese Email</label>
+            <input type="text" id="email" />
+        </div>
+        <div>
+            <label for="password">Ingrese Password</label>
+            <input type="password" id="password" />
+        </div>
+        <div>
+            <label for="number">Ingrese su telefono</label>
+            <input type="number" id="number" />
+        </div>
+
+        <div>
+            <label for="data">Ingrese fecha</label>
+            <input type="date" id="date" />
+        </div>
+        <div>
+            <label for="checkbox">Es Mayor de Edad</label>
+            <input type="checkbox">
+        </div>
+        <div>
+            <label for="">Seleccione su rango de edad</label>
+            <select name="" id="">
+                <option value="0">menor a 10 años</option>
+                <option value="1">Menor a 20 anos</option>
+                <option value="2">Menos de 30 anos</option>
+            </select>
+        </div>
+        <div>
+            <label for="textarea">Elija una opcion</label>
+            <input type="area" id="textarea" name="textarea">
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

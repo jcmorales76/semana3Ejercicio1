@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
 </head>
+
 <body>
     <h1>CONTACTO</h1>
 
@@ -18,6 +20,67 @@
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    </header>
+        </header>
+        <main>
+            <h2>Ingreso de Horas de vuelo</h2>
+            <!-- Trabajar en la vista Formulario y crear un formulario con todos los campos pertinentes 
+                para solicitar informacion (minimo 5 campos). Que tenga un header de introduccion 
+                al formulario y un footer -->
+            <p>Por favor ingrese los datos obtenidos de la bitacora de vuelo de la cabina del avion</p>
+
+            <form action="index.html">
+                <div>
+                    <label for="">Seleccione su tipo de aerona</label>
+                    <select name="" id="" required>
+                        <option value="">Seleccione</option>
+                        <option value="0">B727-100</option>
+                        <option value="1">B737-200</option>
+                        <option value="2">B757-200</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="serie">Ingrese Serie de Aeronabe</label>
+                    <input type="text" id="serie" required/>
+                </div>
+                <br>
+                <div>
+                    <label for="timeb1">Ingrese inicio Horas Block</label>
+                    <input type="time" id="timeb1" required/>
+                </div>
+                <br>
+                <div>
+                    <label for="timef1">Ingrese inicio Horas flight</label>
+                    <input type="time" id="timef1" required/>
+                </div>
+                <br>
+                <div>
+                    <label for="timef2">Ingrese fin Horas flight</label>
+                    <input type="time" id="timef2" required/>
+                </div>
+                <br>
+                <div>
+                    <label for="timeb1">Ingrese fin Horas Block</label>
+                    <input type="time" id="timeb2" required/>
+                </div>
+                <br>
+                <div>
+                    <label for="sumaBlock">Total Horas Blobk</label>
+                    <input type="password" id="sumaBlock" disabled/>
+                </div>
+                <br>
+                <div>
+                    <label for="sumaBlock">Total Horas flight</label>
+                    <input type="password" id="sumaBlock" disabled />
+                </div>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+        <br>
+    <footer>
+        Aerolineas Wayra Peru <a href="http://www.google.com">WAYRA</a
+    </footer>
 </body>
+
 </html>
